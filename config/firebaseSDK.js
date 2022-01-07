@@ -23,12 +23,12 @@ class FirebaseSDK {
       if (!firebase.apps.length) {
         //avoid re-initializing
         firebase.initializeApp({
-          apiKey: 'AIzaSyBFDqM5DDDdekYk9jwg0xxihN37kWTyDcE',
-          authDomain: 'recipeapp-9690d.firebaseapp.com',
-          databaseURL: 'https://recipeapp-9690d.firebaseio.com',
-          projectId: 'recipeapp-9690d',
-          storageBucket: 'recipeapp-9690d.appspot.com',
-          messagingSenderId: '1067445801584'
+          apiKey: 'APIKEY',
+          authDomain: 'APP DOMAIN',
+          databaseURL: 'DB URL',
+          projectId: 'ID',
+          storageBucket: 'STORAGE',
+          messagingSenderId: 'SENDER ID'
         });
 
         // used in troubleshooting the setting a timer issue with firebase
